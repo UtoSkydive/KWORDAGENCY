@@ -14,20 +14,20 @@ const ThemeSwitcher = () => {
         }
     };
 
-    // useEffect(() => {
-    //     const body = document.querySelector('body'),
-    //         theme = window.localStorage.getItem('theme');
+    useEffect(() => {
+        const body = document.querySelector('body'),
+            theme = window.localStorage.getItem('theme');
 
-    //     if (theme === 'dark') {
-    //         setDarkMode(true);
-    //         body.classList.add('active-dark-mode');
-    //         body.classList.remove('active-light-mode');
-    //     } else {
-    //         setDarkMode(false);
-    //         body.classList.add('active-light-mode');
-    //         body.classList.remove('active-dark-mode');
-    //     }
-    // }, [darkMode]);
+        if (theme === 'dark') {
+            setDarkMode(true);
+            body.classList.add('active-dark-mode');
+            body.classList.remove('active-light-mode');
+        } else {
+            setDarkMode(false);
+            body.classList.add('active-light-mode');
+            body.classList.remove('active-dark-mode');
+        }
+    }, [darkMode]);
 
     return (
         <div className="my_switcher">
