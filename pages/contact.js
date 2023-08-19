@@ -21,7 +21,7 @@ const Contact = () => {
                             <div className="col-lg-6 col-md-12 col-xl-5 col-12">
                                 <div className="contact-form-wrapper">
                                     <div className="axil-contact-form contact-form-style-1">
-                                        <h3 className="title">Obtén un presupuesto gratuito de Keystroke ahora.</h3>
+                                        <h3 className="title">Obtén un presupuesto gratuito de Kword ahora.</h3>
                                       {/*<ContactFormThree/>*/}
                                     </div>
                                 </div>
