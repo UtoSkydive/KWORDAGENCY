@@ -2,7 +2,7 @@ import Image from 'next/image';
 import {useEffect, useState} from 'react';
 
 const ThemeSwitcher = () => {
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
     const toggleTheme = () => {
         setDarkMode((prev) => !prev);
