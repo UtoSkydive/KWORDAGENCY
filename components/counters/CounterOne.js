@@ -17,9 +17,9 @@ const CounterOne = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <SectionTitle
-                            title="Marketing Resultados"
-                            subtitle="Somos Expertos en el campo"
-                            description="In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus."
+                            title="Nuestros Valores"
+                            subtitle="En el arte y el marketing, la pasión crea impacto." 
+                            description="Kword,nuestra filosofía y enfoque están arraigados en un conjunto sólido de valores que guían cada acción que emprendemos. Estos valores no son solo palabras en un papel, son la esencia misma de quiénes somos y cómo operamos. "
                             color="extra08-color"
                             alignment="center"
                         />

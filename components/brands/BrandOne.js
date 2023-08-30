@@ -5,17 +5,18 @@ import SectionTitle from '../common/SectionTitle';
 import Link from "next/link";
 
 const BrandOne = ({
-  title = "Hemos construido soluciones para...",
+  title = "Hemos construido soluciones para..",
   subtitle = "top clientes",
   description = "Nulla facilisi. Nullam in magna id dolor blandit rutrum eget.",
-  bgColor = "bg-color-white"
+  bgColor = "bg-color-white",
+  brandData = true,
 }) => {
   const [brands, setBrands] = useState([]);
 
   useEffect(() => {
-    const brandArray = BrandData.slice(0, 6);
+    const brandArray = brandData ? BrandData.slice(0, 6) : [];
     setBrands(brandArray);
-  }, []);
+  }, [brandData]);
 
   return (
     <div className={`axil-brand-area ax-section-gap ${bgColor}`}>

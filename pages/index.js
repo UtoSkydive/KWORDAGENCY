@@ -32,17 +32,22 @@ const HomeOne = ({posts}) => {
 
                 <AboutOne/>
 
-                <PortfolioOne/>
+                {/*<PortfolioOne/>*/}
+
+                
+
+                {/*<TestimonialOne/>*/}
+
+                <BrandOne title={'Plataformas y Certificados'} subtitle={'Certificados'} brandData={false}/>
 
                 <CounterOne/>
 
-                <TestimonialOne/>
-
-                <TeamOne/>
+                {/*<TeamOne/>*/}
 
                 {/* <PricingOne/>*/} 
 
                 <BrandOne/>
+                
 
                 {/*<BlogOne posts={posts.slice(0, 2)}/>*/}
 

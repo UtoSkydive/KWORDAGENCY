@@ -7,7 +7,7 @@
       "src": "/images/counterup/shape-01.png"
     },
     "amount": 1,
-    "title": "Años de Operacion"
+    "title": "Creatividad Inspiradora"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
       "src": "/images/counterup/shape-02.png"
     },
     "amount": 10,
-    "title": "Proyectos Entregados"
+    "title": "Pasión por la Excelencia"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
       "src": "/images/counterup/shape-03.png"
     },
     "amount": 3,
-    "title": "Especialistas"
+    "title": "Enfoque Centrado en el Cliente"
   },
   {
     "id": 4,
@@ -37,6 +37,6 @@
       "src": "/images/counterup/shape-04.png"
     },
     "amount": 64,
-    "title": "Campañas Satisfactorias"
+    "title": "Innovación Orientada a Resultados"
   }
 ]

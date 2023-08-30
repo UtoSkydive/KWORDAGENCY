@@ -19,9 +19,9 @@ const CounterCardOne = ({column, counterClass, data}) => {
                         alt={data.title}
                     />
                 </div>
-                <h3 className="count" ref={ref}>
+                {/*<h3 className="count" ref={ref}>
                     <CountUp start={0} end={inView ? data.amount : 0}/>
-                </h3>
+                </h3>*/}
                 <p>{data.title}</p>
             </div>
         </div>

@@ -16,7 +16,8 @@ const BannerOne = () => {
                                     data-aos="aos-fade-in-up"
                                     data-aos-duration="1000"
                                 >
-                                Potenciamos Tu Marca: Soluciones de Marketing Innovadoras
+                                
+                                Ayudo a empresas a <span style={{color:"#01D0FB"}}>escalar sus ventas</span> usando anuncios en Facebook y Google.
                                 </h1>
                                 <p
                                     className="subtitle-3"
@@ -26,7 +27,16 @@ const BannerOne = () => {
                                 >
                                     Somos una agencia de marketing dedicada a impulsar tu marca hacia el éxito.     
                                 </p>
-                                <Link href="/portfolio">
+                                <Link href="/contact">
+                                    <a className="axil-button btn-large btn-transparent"
+                                       data-aos="aos-fade-in-up"
+                                       data-aos-duration="1000"
+                                       data-aos-delay="400">
+                                        <span className="button-text">Contacto</span>
+                                        <span className="button-icon"/>
+                                    </a>
+                                </Link>
+                                {/*<Link href="/portfolio">
                                     <a className="axil-button btn-large btn-transparent"
                                        data-aos="aos-fade-in-up"
                                        data-aos-duration="1000"
@@ -34,7 +44,9 @@ const BannerOne = () => {
                                         <span className="button-text">Ver Proyectos</span>
                                         <span className="button-icon"/>
                                     </a>
-                                </Link>
+                                </Link>*/}
+                                
+                                
                             </div>
                         </div>
                         <div className="col-lg-5 col-12 order-1 order-lg-2">
