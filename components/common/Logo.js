@@ -1,4 +1,4 @@
-const Logo = ({variant = 'one', fillTextColor = '#00004B'}) => {
+const Logo = ({variant = 'one', fillTextColor = '#1E3868'}) => {
     return (
         <svg width="281px" height="60px" viewBox="0 0 281 60" version="1.1">
             <title>Logo</title>
@@ -30,10 +30,10 @@ const Logo = ({variant = 'one', fillTextColor = '#00004B'}) => {
                                     {variant === 'two' ? 'Agencia Marketing' : 'Agencia Marketing'}
                                 </tspan>
                             </text>
-                            {/*<g id="Favicon">
+                            <g id="Favicon">
                                 <rect
                                     id="Base"
-                                    fill={variant === 'two' ? '#ff8a5b' : '#702fff'}
+                                    fill={variant === 'two' ? '#ff8a5b' : '#4ABCC9'}
                                     x="0" y="0"
                                     width="60"
                                     height="60"
@@ -59,7 +59,7 @@ const Logo = ({variant = 'one', fillTextColor = '#00004B'}) => {
                                         r="4"
                                     />
                             </g>
-                            </g>*/}
+                            </g>
                         </g>
                     </g>
                 </g>

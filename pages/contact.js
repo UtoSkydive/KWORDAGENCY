@@ -22,7 +22,7 @@ const Contact = () => {
                                 <div className="contact-form-wrapper">
                                     <div className="axil-contact-form contact-form-style-1">
                                         <h3 className="title">Obtén un presupuesto gratuito de Kword ahora.</h3>
-                                      {/*<ContactFormThree/>*/}
+                                      <ContactFormThree/>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="axil-office-location-area ax-section-gap bg-color-lightest">
+               {/* <div className="axil-office-location-area ax-section-gap bg-color-lightest">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -133,7 +133,7 @@ const Contact = () => {
                                 </div>
                             </div>
 
-                            {/*<div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div
                                     className="axil-office-location mt--30"
                                     data-aos="aos-fade-in-up"
@@ -212,10 +212,10 @@ const Contact = () => {
                                         </a>
                                     </div>
                                 </div>
-    </div>*/}
+    </div>
                         </div>
                     </div>
-                </div>
+    </div>*/}
             </main>
         </Layout>
     );

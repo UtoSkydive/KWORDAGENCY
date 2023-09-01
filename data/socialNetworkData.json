@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "image": {
+        "src": "/images/social/face.png",
+        "width": 80,
+        "height": 80
+      }
+    },
+    {
+      "id": 2,
+      "image": {
+        "src":  "/images/social/instagram.png",
+        "width": 80,
+        "height": 80
+      }
+    },
+    {
+      "id": 3,
+      "image": {
+        "src": "/images/social/whatsap.png",
+        "width": 80,
+        "height": 80
+      }
+    },
+    {
+      "id": 4,
+      "image": {
+        "src": "/images/social/linkedin.png",
+        "width": 80,
+        "height": 80
+      }
+    }
+    
+    
+  ]
+  

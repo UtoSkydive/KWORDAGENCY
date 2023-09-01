@@ -60,7 +60,7 @@ const ServiceCardOne = (
                 href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}>{data.title}</Link>*/}
                             </h4>
                             <p>{data.description}</p>
-                            {/*<Link
+                            <Link
                                 className="axil-button"
                                 data-hover="Learn More"
                                 href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}
@@ -68,7 +68,7 @@ const ServiceCardOne = (
                                 <a className="axil-button">
                                     Aprender más
                                 </a>
-                            </Link>*/}
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -15,6 +15,11 @@ import BannerOne from '../components/banners/BannerOne';
 import SliderOne from '../components/sliders/SliderOne';
 import TeamOne from '../components/teams/TeamOne';
 import TestimonialOne from '../components/testimonials/TestimonialOne';
+import BrandData from '../data/Brands.json';
+import certificatData from '../data/CertificateData.json';
+import socialData from '../data/socialNetworkData.json';
+
+
 
 const HomeOne = ({posts}) => {
     return (
@@ -24,11 +29,13 @@ const HomeOne = ({posts}) => {
             </Head>
 
             <main className="page-wrapper">
-                <BannerOne/>
+                <BannerOne />
 
                 <ServiceOne/>
 
                 {/*<SliderOne/>*/}
+
+                <BrandOne title={'Plataformas y Certificados'} subtitle={'Certificados'} brandData={false} data ={certificatData}/>
 
                 <AboutOne/>
 
@@ -38,15 +45,16 @@ const HomeOne = ({posts}) => {
 
                 {/*<TestimonialOne/>*/}
 
-                <BrandOne title={'Plataformas y Certificados'} subtitle={'Certificados'} brandData={false}/>
+                <BrandOne data={BrandData}/>
 
                 <CounterOne/>
+
+                <BrandOne title={'Redes Sociales'} subtitle={'síguenos'} brandData={false} data ={socialData}/>
 
                 {/*<TeamOne/>*/}
 
                 {/* <PricingOne/>*/} 
 
-                <BrandOne/>
                 
 
                 {/*<BlogOne posts={posts.slice(0, 2)}/>*/}

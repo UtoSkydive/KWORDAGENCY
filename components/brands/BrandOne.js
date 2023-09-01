@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import BrandData from '../../data/Brands.json';
 import SectionTitle from '../common/SectionTitle';
 import Link from "next/link";
 
@@ -10,13 +9,14 @@ const BrandOne = ({
   description = "Nulla facilisi. Nullam in magna id dolor blandit rutrum eget.",
   bgColor = "bg-color-white",
   brandData = true,
+  data = [],
 }) => {
   const [brands, setBrands] = useState([]);
 
   useEffect(() => {
-    const brandArray = brandData ? BrandData.slice(0, 6) : [];
+    const brandArray = data ? data.slice(0, 6) : [];
     setBrands(brandArray);
-  }, [brandData]);
+  }, [data]);
 
   return (
     <div className={`axil-brand-area ax-section-gap ${bgColor}`}>
