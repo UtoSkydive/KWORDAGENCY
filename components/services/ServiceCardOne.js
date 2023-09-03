@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
 import Tilt from 'react-parallax-tilt';
-import {camelCaseToDashed} from '../../helpers/utilities';
+import { camelCaseToDashed } from '../../helpers/utilities';
 
 const ServiceCardOne = (
     {
@@ -27,9 +27,8 @@ const ServiceCardOne = (
         <div className={column} data-aos="aos-fade-in-up">
             <Tilt tiltMaxAngleX={7} tiltMaxAngleY={7}>
                 <div
-                    className={`axil-service axil-control paralax-image ${serviceClass} ${textAlignment} ${
-                        activeIndex === index ? "active" : ""
-                    }`}
+                    className={`axil-service axil-control paralax-image ${serviceClass} ${textAlignment} ${activeIndex === index ? "active" : ""
+                        }`}
                     onMouseEnter={() => changeActive(index)}
                 >
                     <div className="inner">
@@ -55,9 +54,9 @@ const ServiceCardOne = (
                         </div>
                         <div className="content">
                             <h4 className="title">
-                                {data.title}
-                                {/*<Link
-                href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}>{data.title}</Link>*/}
+
+                                <Link
+                                    href={`/services/${camelCaseToDashed(data.category)}/${data.slug}`}>{data.title}</Link>
                             </h4>
                             <p>{data.description}</p>
                             <Link

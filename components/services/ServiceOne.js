@@ -9,7 +9,7 @@ const ServiceOne = () => {
 
     const getDefaultServices = () => {
         const filteredServices = ServiceData.filter(
-            (service) => service.category === 'Default'
+            (service) => service.category === 'default'
         );
 
         setDefaultServices(filteredServices)

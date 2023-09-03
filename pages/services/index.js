@@ -6,6 +6,7 @@ import CallToActionOne from '../../components/call-to-actions/CallToActionOne';
 import Layout from '../../components/layouts/Layout';
 import ServiceSection from '../../components/services/ServiceSection';
 import ServiceData from '../../data/Services.json';
+import ServiceOne from '../../components/services/ServiceOne';
 
 const Services = () => {
     const [activeServiceSection, setActiveServiceSection] = useState("");
@@ -81,7 +82,7 @@ const Services = () => {
             <main className="page-wrapper">
                 <BannerSix/>
 
-                <div
+               {/* <div
                     ref={ref}
                     className="axil-scroll-navigation-area axil-scroll-navigation position-relative bg-color-white"
                 >
@@ -104,7 +105,7 @@ const Services = () => {
                                     }`}
                                     href="#section2"
                                 >
-                                    Development
+                                    Development...
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -164,7 +165,8 @@ const Services = () => {
                             changeActiveSection={changeActiveSection}
                         />
                     ))}
-                </div>
+                        </div>*/}
+                <ServiceOne/>
 
                 <CallToActionOne/>
             </main>

@@ -53,11 +53,11 @@ const ServiceDetails = ({service}) => {
                     isServiceDetails={true}
                 />
 
-                <AboutTwo/>
+                {/*<AboutTwo/>*/}
 
                 <WorkingProcess process={service.process}/>
 
-                <PortfolioTwo/>
+                {/*<PortfolioTwo/>*/}
 
                 <CallToActionOne/>
             </div>

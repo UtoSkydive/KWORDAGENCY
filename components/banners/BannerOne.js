@@ -17,7 +17,7 @@ const BannerOne = () => {
                                     data-aos-duration="1000"
                                 >
                                 
-                                Ayudo a empresas a <span style={{color:"#01D0FB"}}>escalar sus ventas</span> usando anuncios en Facebook y Google.
+                                Ayudo a empresas a <span style={{color:"#4ABCC9"}}>escalar sus ventas</span> usando anuncios en Facebook y Google.
                                 </h1>
                                 <p
                                     className="subtitle-3"
