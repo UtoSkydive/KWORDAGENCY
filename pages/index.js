@@ -49,7 +49,7 @@ const HomeOne = ({posts}) => {
 
                 <CounterOne/>
 
-                <BrandOne title={'Redes Sociales'} subtitle={'síguenos'} brandData={false} data ={socialData}/>
+                {/*<BrandOne title={'Redes Sociales'} subtitle={'síguenos'} brandData={false} data ={socialData}/>*/}
 
                 {/*<TeamOne/>*/}
 

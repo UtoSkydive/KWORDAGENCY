@@ -2,7 +2,10 @@ import SectionTitle from "../common/SectionTitle";
 import ContactFormTwo from "../forms/ContactFormTwo";
 import { SplitText } from "../common/SplitText";
 
+
 const ContactOne = () => {
+  
+  
   return (
     <div className="axil-contact-area ax-section-gap bg-color-lightest">
       <div className="container">

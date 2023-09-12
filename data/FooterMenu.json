@@ -2,12 +2,9 @@
   "social": [
     {"type":  "facebook", "icon": "fa-facebook-f", "url":  "https://www.facebook.com/"},
     {"type":  "twitter", "icon": "fa-twitter", "url":  "https://twitter.com/"},
-    {"type":  "pinterest", "icon": "fa-pinterest-p", "url":  "https://www.pinterest.com/"},
     {"type":  "linkedin", "icon": "fa-linkedin-in", "url":  "https://www.linkedin.com/"},
-    {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/"},
-    {"type":  "vimeo", "icon": "fa-vimeo-v", "url":  "https://vimeo.com/"},
-    {"type":  "dribble", "icon": "fa-dribbble", "url":  "https://dribbble.com/"},
-    {"type":  "behance", "icon": "fa-behance", "url":  "https://www.behance.net/"}
+    {"type":  "instagram", "icon": "fa-instagram", "url":  "https://www.instagram.com/"}
+   
   ],
   "services": [
     {"title":  "Logo & Branding", "url":  "/services/design/logo-and-branding"},

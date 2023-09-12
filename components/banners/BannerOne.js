@@ -6,7 +6,7 @@ const BannerOne = () => {
     return (
         <div className="axil-slider-area axil-slide-activation">
             <div
-                className="axil-slide slide-style-default theme-gradient slider-fixed-height d-flex align-items-center paralax-area">
+                className="axil-slide slide-style-default theme-gradient slider-fixed-height d-flex align-items-center paralax-area" style={{background:"#1E3868"}}>
                 <div className="container">
                     <div className="row align-items-center pt_md--60 mt_sm--60">
                         <div className="col-lg-7 col-12 order-2 order-lg-1">
@@ -15,6 +15,7 @@ const BannerOne = () => {
                                     className="axil-display-1"
                                     data-aos="aos-fade-in-up"
                                     data-aos-duration="1000"
+                                    style={{color:"white"}}
                                 >
                                 
                                 Ayudo a empresas a <span style={{color:"#4ABCC9"}}>escalar sus ventas</span> usando anuncios en Facebook y Google.
@@ -24,16 +25,20 @@ const BannerOne = () => {
                                     data-aos="aos-fade-in-up"
                                     data-aos-duration="1000"
                                     data-aos-delay="200"
+                                    style={{color:"white"}}
                                 >
-                                    Somos una agencia de marketing dedicada a impulsar tu marca hacia el éxito.     
+                                    Somos una agencia de marketing dedicada a <span style={{background:"#4ABCC9"}}>impulsar tu marca hacia el éxito.</span>     
                                 </p>
                                 <Link href="/contact">
                                     <a className="axil-button btn-large btn-transparent"
                                        data-aos="aos-fade-in-up"
                                        data-aos-duration="1000"
-                                       data-aos-delay="400">
-                                        <span className="button-text">Contacto</span>
-                                        <span className="button-icon"/>
+                                       data-aos-delay="400"
+                                       style={{border:"2px solid white"}}
+                                       >
+                                       
+                                        <span className="button-text" style={{color:"white"}}>Contacto</span>
+                                        <span className="button-icon" style={{coloe:"white"}}/>
                                     </a>
                                 </Link>
                                 {/*<Link href="/portfolio">

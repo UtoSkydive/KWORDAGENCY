@@ -1,8 +1,9 @@
 import SectionTitle from '../common/SectionTitle';
 
 const CallToActionOne = () => {
+    // theme-gradient
     return (
-        <div className="axil-call-to-action-area shape-position ax-section-gap theme-gradient">
+        <div className="axil-call-to-action-area shape-position ax-section-gap ">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

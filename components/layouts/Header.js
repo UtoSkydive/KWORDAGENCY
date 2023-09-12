@@ -7,6 +7,7 @@ import SideNav from './SideNav';
 import ThemeSwitcher from './ThemeSwitcher';
 import Logo from '../common/Logo';
 
+
 const Header = ({headerSetting = {}}) => {
     const [headerSettings, setHeaderSettings] = useState({});
 
@@ -40,6 +41,7 @@ const Header = ({headerSetting = {}}) => {
     };
 
     useEffect(() => {
+       
         if (headerSetting === '') {
             const setting = {
                 style: 'one',
@@ -100,11 +102,11 @@ const Header = ({headerSetting = {}}) => {
                         <div className="row align-items-center">
                             <div className={headerSettings.leftColumn}>
                                 <div className="logo">
-                                   { /*<Link href="/">
+                                   <Link href="/">
                                         <a>
-                                            <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'}/>
+                                            <Logo variant={headerSettings.style === 'four' ? 'two' : 'one'} />
                                         </a>
-    </Link>*/}
+                                    </Link>
                                 </div>
                             </div>
                             {headerSettings.style === "two" && (
