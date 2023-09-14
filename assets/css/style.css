@@ -12804,18 +12804,20 @@ Dividers Area
 }
 @media only screen and (max-width: 767px) {
   .ft-social-share li a {
-    font-size: 25px;
+    font-size: 32px;
   }
 }
 @media only screen and (max-width: 575px) {
   .ft-social-share li a {
-    font-size: 19px;
+    font-size: 32px;
   }
 }
 .ft-social-share li:hover a {
-  color: #702FFF;
+  color: #4ABCC9;
 }
-
+.socialIcon {
+  color:red
+}
 .axil-social-icons {
   margin: 0 -15px;
 }

@@ -50,7 +50,7 @@ const ThemeSwitcher = () => {
                         </span>
                     </button>
                 </li>
-                <li>
+                {/*<li>
                     <button
                         type="button"
                         data-theme="dark"
@@ -63,11 +63,11 @@ const ThemeSwitcher = () => {
                             src="/images/about/vector.svg"
                             alt="Vector Images"
                         />
-                        <span className="title" title="Dark Mode">
+                        {<span className="title" title="Dark Mode">
                           Dark
-                        </span>
+                        </span>}
                     </button>
-                </li>
+    </li>*/}
             </ul>
         </div>
     );

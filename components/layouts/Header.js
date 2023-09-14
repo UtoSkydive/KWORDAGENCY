@@ -95,7 +95,7 @@ const Header = ({headerSetting = {}}) => {
             <ThemeSwitcher/>
 
             <header
-                className={`ax-header haeder-default light-logo-version header-transparent axil-header-sticky`}
+                className={`ax-header haeder-default light-logo-version axil-header-sticky`}
             >
                 <div className="header-wrapper">
                     <div className={headerContainerClass()}>

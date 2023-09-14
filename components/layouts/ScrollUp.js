@@ -26,6 +26,7 @@ const ScrollUp = () => {
       id="scrollUp"
       href="#top"
       onClick={scrollUp}
+      style={{color:'#4ABCC9'}}
       className={visible ? "visible" : ""}
     >
       <span className="text">top</span>

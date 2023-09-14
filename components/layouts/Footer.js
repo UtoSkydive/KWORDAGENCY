@@ -5,7 +5,12 @@ import FooterMenu from '../../data/FooterMenu.json';
 import Image from 'next/image'
 
 const Footer = ({ footerSetting = {} }) => {
-
+    function changeBackground(e) {
+        e.target.style.color = '#4ABCC9';
+      }
+    function resetBackground(e) {
+        e.target.style.color = 'white';
+      }
 
     return (
         <footer className='axil-footer footer-default'>
@@ -20,8 +25,8 @@ const Footer = ({ footerSetting = {} }) => {
                                 <ul className="ft-social-share d-flex justify-content-center liststyle flex-wrap">
                                     {FooterMenu.social?.map((socialItem, index) => (
                                         <li key={`social-${index}`}>
-                                            <a href={socialItem.url} target="_blank" rel="noreferrer">
-                                                <i className={`fab ${socialItem.icon}`} />
+                                            <a href={socialItem.url} target="_blank" rel="noreferrer" style={{fontSize:'32px'}}  onMouseOver={changeBackground} onMouseLeave={resetBackground} >
+                                                <i className={`fab ${socialItem.icon}`  } style={{color:'#fff'}} />
                                             </a>
                                         </li>
                                     ))}
@@ -44,16 +49,15 @@ const Footer = ({ footerSetting = {} }) => {
                                 alt="Picture of the author"
                             />
                         </div>
-                        <div className="col-sm">
+                        <div className="col-sm" style={{display: "flex",alignItems: "center", justifyContent:"center"}}>
                             <div>
                                 <h2 style={{color:"white"}}>Contáctanos!</h2>
-                                <p >
-                                    ¿Necesitas ayuda ? Mándame un email a info@ejemplo.co o escríbeme a este número: +57 00000000000
+                                <p style={{color:"white"}} >
+                                    Escríbenos por Whatsap
                                 </p>
                                 <div className="axil-newsletter">
-                                    <a className="axil-button btn-transparent" href="#">
-                                        <span className="button-text">Whatsap</span>
-                                        <span className="button-icon" />
+                                    <a className="axil-button" style={{background:'#25d366'}} href="#">
+                                        <span className="button-text " style={{color:'white'}}>Whatsap</span>
                                     </a>
                                 </div>
                             </div>
@@ -63,10 +67,10 @@ const Footer = ({ footerSetting = {} }) => {
 
                 <div className="copyright copyright-default">
                     <div className="container">
-                        <div className="row row--0 ptb--20 axil-basic-thine-line">
+                        <div className="row row--0 ptb--20 axil-basic-thine-line" style={{color:"#FFF"}}>
                             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div className="inner text-center text-md-start">
-                                    <p>© 2023. All rights reserved by Kword Agency.</p>
+                                <div className="inner text-center text-md-start" >
+                                    <p style={{color:"#FFF"}}>© 2023. All rights reserved by Kword Agency.</p>
                                 </div>
                             </div>
                         </div>
