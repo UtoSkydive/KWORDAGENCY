@@ -56,7 +56,7 @@ const Footer = ({ footerSetting = {} }) => {
                                     Escríbenos por Whatsap
                                 </p>
                                 <div className="axil-newsletter">
-                                    <a className="axil-button" style={{background:'#25d366'}} href="#">
+                                    <a className="axil-button" style={{background:'#25d366'}} href="whatsapp://send?abid=+573154754597&text=Hello%2C%20World!" target="blank">
                                         <span className="button-text " style={{color:'white'}}>Whatsap</span>
                                     </a>
                                 </div>

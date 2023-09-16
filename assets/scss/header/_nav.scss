@@ -15,6 +15,7 @@ ul {
         }
         > li {
             > a {
+                color: #FFF;
                 display: block;
                 padding: 24px 20px;
                 @media #{$laptop-device} {

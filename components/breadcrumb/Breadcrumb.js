@@ -7,7 +7,7 @@ const Breadcrumb = ({
   current = "Blog",
 }) => {
   return (
-    <div className="axil-breadcrumb-area breadcrumb-style-default pt--170 pb--70 theme-gradient">
+    <div className="axil-breadcrumb-area breadcrumb-style-default pt--170 pb--70 theme-gradient" style={{background:'#1E3868'}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
