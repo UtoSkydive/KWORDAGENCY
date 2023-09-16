@@ -14,7 +14,7 @@ const BrandOne = ({
   const [brands, setBrands] = useState([]);
 
   useEffect(() => {
-    const brandArray = data ? data.slice(0, 6) : [];
+    const brandArray = data ? data.slice(0, 7) : [];
     setBrands(brandArray);
   }, [data]);
 
