@@ -13,10 +13,10 @@ const ContactFormOne = () => {
 
     emailjs
       .sendForm(
-        "service_mxdohie",
-        "template_z5cioqm",
+        "default_service",
+        "template_lx68pja",
         form.current,
-        "jpLEXw_LKyA6GgI_U"
+        'G68Oxc-dViNzPY_6F'
       )
       .then(
         (result) => {
@@ -41,7 +41,7 @@ const ContactFormOne = () => {
     <form ref={form} onSubmit={sendEmail}>
       <Input name="name" label="Nombre" isClear={isMessageSent} />
       <Input name="email" label="Email" type="email" isClear={isMessageSent} />
-      <Input name="company" label="Compañia" isClear={isMessageSent} />
+      
       <Input name="phone" label="Teléfono" isClear={isMessageSent} />
       <div className="form-group">
         <button className="axil-button btn-large btn-transparent w-100">

@@ -39,11 +39,12 @@ const ContactFormThree = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <Input name="name" label="Name" isClear={isMessageSent} />
-      <Input name="email" label="Email" type="email" isClear={isMessageSent} />
+      <Input name="from_name" id="from_name" label="Name" isClear={isMessageSent} />
+      <Input name="email_id" label="Email" type="email"  id="email_id "isClear={isMessageSent} />
       <Input name="phone" label="Phone" isClear={isMessageSent} />
       <Input
         name="message"
+        id="message"
         label="Your message"
         type="textarea"
         isClear={isMessageSent}

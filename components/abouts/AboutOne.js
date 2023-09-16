@@ -42,7 +42,7 @@ const AboutOne = () => {
             <div className="contact-form-wrapper">
               <div className="axil-contact-form contact-form-style-1">
                 <h3 className="title">Obtén ahora un presupuesto gratuito</h3>
-               { /*<ContactFormOne/>*/}
+              <ContactFormOne/>
                 <div className="callto-action-wrapper text-center">
                   <span className="text">O llamanos</span>
                   <span>
