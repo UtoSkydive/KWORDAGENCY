@@ -1,9 +1,10 @@
 import Image from "next/image";
+import reactLogo from '/public/images/logo/logoHeader.png'
 
-const Logo = ({variant = 'one', fillTextColor = '#1E3868'}) => {
+const Logo = () => {
     return (
         <div >
-            <Image src="/images/logo/2.png" width={100} height={100} alt="logo" style={{border:'1px solid red'}}/>
+            <Image src={reactLogo} width={300} height={108} alt="logo" className="logoKword" />
         </div>
     )
 }
