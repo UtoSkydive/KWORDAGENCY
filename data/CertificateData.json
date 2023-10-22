@@ -2,25 +2,25 @@
   {
     "id": 1,
     "image": {
-      "src": "/images/brand/brand-01.png",
-      "width": 110,
-      "height": 46
+      "src": "/images/brand/2.png",
+      "width": 200,
+      "height": 200
     }
   },
   {
     "id": 2,
     "image": {
-      "src": "/images/brand/brand-02.png",
-      "width": 90,
-      "height": 44
+      "src": "/images/brand/3.png",
+      "width": 200,
+      "height": 200
     }
   },
   {
     "id": 3,
     "image": {
-      "src": "/images/brand/brand-03.png",
-      "width": 91,
-      "height": 44
+      "src": "/images/brand/4.png",
+      "width": 200,
+      "height": 200
     }
   },
   {

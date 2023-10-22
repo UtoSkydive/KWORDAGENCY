@@ -1,5 +1,5 @@
 import Image from "next/image";
-import reactLogo from '/public/images/logo/logoHeader.png'
+import reactLogo from '/public/images/logo/full.png'
 
 const Logo = () => {
     return (

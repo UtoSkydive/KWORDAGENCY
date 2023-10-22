@@ -18,6 +18,8 @@ import TestimonialOne from '../components/testimonials/TestimonialOne';
 import BrandData from '../data/Brands.json';
 import certificatData from '../data/CertificateData.json';
 import socialData from '../data/socialNetworkData.json';
+import BannerMain from '../components/banners/BannerMain';
+import BannerPhoto from '../components/banners/BannerPhoto';
 
 
 
@@ -29,13 +31,16 @@ const HomeOne = ({posts}) => {
             </Head>
 
             <main className="page-wrapper">
-                <BannerOne />
 
+                <BannerMain/>
+                {/*<BannerOne />*/}
+                
+                <BannerPhoto/>
                 <ServiceOne/>
 
                 {/*<SliderOne/>*/}
 
-                <BrandOne title={'Plataformas y Certificados'} subtitle={'Certificados'} brandData={false} data ={certificatData}/>
+                <BrandOne title={'Plataformas y Certificados'} subtitle={'Certificados'} brandData={false} data ={certificatData} sliceNumber={3}/>
 
                 <AboutOne/>
 

@@ -9,14 +9,15 @@ const BrandOne = ({
   description = "Nulla facilisi. Nullam in magna id dolor blandit rutrum eget.",
   bgColor = "bg-color-white",
   brandData = true,
+  sliceNumber=7,
   data = [],
 }) => {
   const [brands, setBrands] = useState([]);
 
   useEffect(() => {
-    const brandArray = data ? data.slice(0, 7) : [];
+    const brandArray = data ? data.slice(0, sliceNumber) : [];
     setBrands(brandArray);
-  }, [data]);
+  }, [data,sliceNumber]);
 
   return (
     <div className={`axil-brand-area ax-section-gap ${bgColor}`}>

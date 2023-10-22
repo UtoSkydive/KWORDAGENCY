@@ -9,14 +9,14 @@ const CallToActionOne = () => {
                     <div className="col-lg-12">
                         <div className="axil-call-to-action">
                             <SectionTitle
-                                title="¿Necesitas un proyecto exitoso?"
+                                title="¿Necesitas ayuda con tus campañas?"
                                 subtitle="Trabajemos juntos"
                                 color="extra04-color"
                                 alignment="center"
                             />
                             <div className="text-center">
                                 <a className="axil-button btn-large btn-transparent" href="#">
-                                    <span className="button-text">Cotiza Tu proyecto</span>
+                                    <span className="button-text">Contactanos</span>
                                     <span className="button-icon"/>
                                 </a>
                                 <div className="callto-action">

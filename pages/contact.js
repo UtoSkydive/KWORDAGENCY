@@ -20,7 +20,7 @@ const Contact = () => {
                         <div className="contact-form-wrapper">
                             <div className="axil-contact-form contact-form-style-1">
                                 <div style={{width:'70%',margin:'0 auto'}}>
-                                    <h3 className="title">Obtén un presupuesto gratuito de Kword ahora.</h3>
+                                    <h3 className="title">¿Necesitas ayuda con tus camapañas?</h3>
                                     <ContactFormThree/>
                                 </div>
                             </div>
