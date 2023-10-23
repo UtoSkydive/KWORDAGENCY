@@ -8,8 +8,8 @@ const BannerPhoto = () => {
             <div className="row m-5 w-75" >
                 <div className="col-sm">
                     <Image
-                        width={500}
-                        height={420}
+                        width={480}
+                        height={480}
                         src="/images/others/pic.png"
                         alt="founder Image"
                     />

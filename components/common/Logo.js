@@ -4,7 +4,7 @@ import reactLogo from '/public/images/logo/full.png'
 const Logo = () => {
     return (
         <div >
-            <Image src={reactLogo} width={300} height={108} alt="logo" className="logoKword" />
+            <Image src={reactLogo} width={150} height={60} alt="logo" className="logoKword" />
         </div>
     )
 }
