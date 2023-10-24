@@ -16,9 +16,10 @@ const BannerPhoto = () => {
                 </div>
                 <div className="col-sm" style={{display: "flex",alignItems: "center", justifyContent:"center",justifyItems:'center'}}>
                     <div>
-                        <h3>¿Necesitas Vender en Internet?</h3>
+                        <h3>¿Necesitas <b>Vender</b> en Internet?</h3>
                         <p style={{ textAlign: 'justify' }}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                            ¡Hola! Somos Kword Agency y durante varios años hemos  trabajado como consultores de Marketing Digital.  Junto a nuestro equipo, hemos tenido la oportunidad de ayudar a diversas empresas a incrementar sus ventas en  Colombia, Estados Unidos, España, Irlanda y Australia. Para tener ventas consistentes en internet nuestra estrategia se enfoca en ejecutar una comunicación efectiva a través de anuncios en Facebook, Instagram y Google. Queremos ayudarte a crecer poniendo todo nuestro conocimiento a tu disposición.
+                            </p>
                         <Link href="/contact">
                             <button type="button" className="btn btn-primary">Contactanos</button>
                         </Link>
