@@ -39,9 +39,9 @@ const ContactFormThree = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <Input name="from_name" id="from_name" label="Name" isClear={isMessageSent} />
-      <Input name="email_id" label="Email" type="email"  id="email_id "isClear={isMessageSent} />
-      <Input name="phone" label="Teléfono" isClear={isMessageSent} />
+      <Input name="from_name" id="from_name" label="Nombre" isClear={isMessageSent} required />
+      <Input name="email_id" label="Email" type="email"  id="email_id "isClear={isMessageSent} required />
+      <Input name="phone" label="Teléfono" isClear={isMessageSent} required/>
       <Input
         name="message"
         id="message"
@@ -49,6 +49,7 @@ const ContactFormThree = () => {
         type="textarea"
         
         isClear={isMessageSent}
+        required
       />
       <div className="form-group">
         <input type="submit" value="Enviar Mensaje" />
@@ -58,7 +59,7 @@ const ContactFormThree = () => {
         <Alert
           message={
             isMessageSent
-              ? "Tu mensaje fue enviado satisfactoriamente"
+              ? "Tu mensaje fue enviado satisfactoriamente."
               : "Algo salio mal!"
           }
           type={isMessageSent ? "success" : "danger"}

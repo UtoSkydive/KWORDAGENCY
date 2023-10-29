@@ -2,7 +2,8 @@
   {
     "id": 1,
     "image": {
-      "src": "/images/brand/2.png",
+      
+      "src": "/images/brand/3.png",
       "width": 200,
       "height": 200
     }
@@ -10,7 +11,7 @@
   {
     "id": 2,
     "image": {
-      "src": "/images/brand/3.png",
+      "src": "/images/brand/4.png",
       "width": 200,
       "height": 200
     }
@@ -18,7 +19,7 @@
   {
     "id": 3,
     "image": {
-      "src": "/images/brand/4.png",
+      "src": "/images/brand/2.png",
       "width": 200,
       "height": 200
     }

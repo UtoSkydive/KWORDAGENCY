@@ -13,6 +13,7 @@ const ServiceCardOne = (
         data,
         changeActive,
         alignment = 'center',
+        imageAds,
     }
 ) => {
     const [textAlignment, setTextAlignment] = useState('text-center');
@@ -32,25 +33,13 @@ const ServiceCardOne = (
                     onMouseEnter={() => changeActive(index)}
                 >
                     <div className="inner">
-                        <div className={`icon ${data.iconColorClass}`}>
-                            <div className="icon-inner">
-                                <div className="layer-image">
-                                    <Image
-                                        width={50}
-                                        height={49}
-                                        src={data.imageLayer}
-                                        alt="Icon Images"
-                                    />
-                                </div>
-                                <div className="image-2">
-                                    <Image
-                                        width={data.imageIcon.width}
-                                        height={data.imageIcon.height}
-                                        src={data.imageIcon.src}
-                                        alt="Shape Images"
-                                    />
-                                </div>
-                            </div>
+                        <div>
+                            <Image
+                                width={480}
+                                height={480}
+                                src={imageAds}
+                                alt="founder Image"
+                            />
                         </div>
                         <div className="content">
                             <h4 className="title">
@@ -66,7 +55,7 @@ const ServiceCardOne = (
                                 href={`/contact`}
                             >
                                 <a className="axil-button">
-                                   Contáctanos
+                                    Contáctanos
                                 </a>
                             </Link>
                         </div>
@@ -78,3 +67,23 @@ const ServiceCardOne = (
 };
 
 export default ServiceCardOne;
+
+
+// <div className="icon-inner">
+//                                 <div className="layer-image">
+//                                     <Image
+//                                         width={50}
+//                                         height={49}
+//                                         src={data.imageLayer}
+//                                         alt="Icon Images"
+//                                     />
+//                                 </div>
+//                                 <div className="image-2">
+//                                     <Image
+//                                         width={data.imageIcon.width}
+//                                         height={data.imageIcon.height}
+//                                         src={data.imageIcon.src}
+//                                         alt="Shape Images"
+//                                     />
+//                                 </div>
+//                             </div>

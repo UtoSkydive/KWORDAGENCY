@@ -2,66 +2,15 @@
   {
     "id": 1,
     "imageLayer": "/images/icons/layer.svg",
-    "imageIcon": {
-      "src": "/images/icons/icon-04.svg",
-      "width": "50",
-      "height": "50"
-    },
-    "iconColorClass": "",
-    "title": "Estrategia Digital",
-    "description": "Creamos contenido relevante, interactuamos con tu audiencia...",
-    "category": "default",
-    "slug": "marketing",
-    "process": {
-      "title": "Estrategia Digital",
-      "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem.",
-      "strategies": [
-        {
-          "id": 1,
-          "title": "parrafo 1",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra04-color",
-          "image": "/images/process/process-01.jpg"
-        },
-        {
-          "id": 2,
-          "title": "parrafo 2",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra05-color",
-          "image": "/images/process/process-02.jpg"
-        },
-        {
-          "id": 3,
-          "title": "parrafo 3",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra06-color",
-          "image": "/images/process/process-03.jpg"
-        },
-        {
-          "id": 4,
-          "title": "parrafo 4",
-          "subtitle": "our four step process",
-          "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.",
-          "highlightColor": "extra07-color",
-          "image": "/images/process/process-04.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "id": 2,
-    "imageLayer": "/images/icons/layer.svg",
+    "imageAds": "/images/service/service2.jpeg",
     "imageIcon": {
       "src": "/images/icons/icon-02.svg",
       "width": "45",
       "height": "45"
     },
     "iconColorClass": "gradient-color-02",
-    "title": "Anuncios en Google y Meta Ads",
-    "description": " Mejoramos la visibilidad de tu sitio web en los resultados de búsqueda orgánicos.",
+    "title": "Manejo de Campañas",
+    "description": "Diseñamos la estrategia para que tengas ventas consistentes en Facebook Ads, Google Ads y Tiktok Ads. Hemos trabajados con diferentes empresas en Colombia, Estados Unidos y Europa.",
     "category": "default",
     "slug": "anuncios",
     "process": {
@@ -104,16 +53,17 @@
     }
   },
   {
-    "id": 3,
+    "id": 2,
     "imageLayer": "/images/icons/layer.svg",
+    "imageAds": "/images/service/service3.jpeg",
     "imageIcon": {
       "src": "/images/icons/icon-03.svg",
       "width": "34",
       "height": "34"
     },
     "iconColorClass": "gradient-color-03",
-    "title": "Growth Marketing",
-    "description": " Creamos estrategias de marketing de contenidos que atraen, informan y comprometen a tu audiencia..",
+    "title": "Revisión de Campañas",
+    "description": "Revisamos tus campañas de Facebook, Google o Tiktok  y te damos una lista de recomendaciones para mejorar tus resultados. Además, tendrás un seguimiento para ayudarte a mantener o incluso escalar tus ventas.",
     "category": "default",
     "slug": "Growth-marketing",
     "process": {
@@ -158,19 +108,20 @@
   {
     "id": 3,
     "imageLayer": "/images/icons/layer.svg",
+    "imageAds": "/images/service/service1.jpeg",
     "imageIcon": {
-      "src": "/images/icons/assesor.svg",
-      "width": "40",
-      "height": "40"
+      "src": "/images/icons/icon-04.svg",
+      "width": "50",
+      "height": "50"
     },
-    "iconColorClass": "gradient-color-03",
-    "title": "Asesorias",
-    "description": " Creamos estrategias de marketing de contenidos que atraen, informan y comprometen a tu audiencia..",
+    "iconColorClass": "",
+    "title": "Asesorías",
+    "description": "En este espacio haremos una revisión completa tus anuncios y te vamos a ayudar a identificar tu principal fuga de ventas, también vamos a pasar a revisar tus campañas y te guiaremos para optimizar y mejorar las ventas de tu negocio.",
     "category": "default",
-    "slug": "Asesorias",
+    "slug": "marketing",
     "process": {
-      "title": "Asesorias",
-      "description": "Our comprehensive online marketing strategy ensures enough trafic for your business.",
+      "title": "Estrategia Digital",
+      "description": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem.",
       "strategies": [
         {
           "id": 1,
@@ -207,5 +158,4 @@
       ]
     }
   }
- 
 ]

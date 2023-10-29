@@ -31,7 +31,7 @@ const ServiceOne = () => {
                         <SectionTitle
                             title="Servicios con los que podemos ayudarte"
                             subtitle="Qué podemos hacer por ti"
-                            description="Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet."
+                            description=""
                             color="extra08-color"
                             alignment="center"
                         />
@@ -46,6 +46,7 @@ const ServiceOne = () => {
                             activeIndex={activeService}
                             data={service}
                             changeActive={changeActive}
+                            imageAds={service.imageAds}
                         />
                     ))}
                 </div>

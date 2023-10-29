@@ -39,8 +39,8 @@ const ContactFormOne = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <Input name="name" label="Nombre" isClear={isMessageSent} />
-      <Input name="email" label="Email" type="email" isClear={isMessageSent} />
+      <Input  name="from_name" id="from_name" label="Nombre" isClear={isMessageSent} />
+      <Input  name="email_id" label="Email"  type="email" isClear={isMessageSent} />
       
       <Input name="phone" label="Teléfono" isClear={isMessageSent} />
       <div className="form-group">

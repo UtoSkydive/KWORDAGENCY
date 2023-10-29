@@ -16,12 +16,12 @@ const BannerPhoto = () => {
                 </div>
                 <div className="col-sm" style={{display: "flex",alignItems: "center", justifyContent:"center",justifyItems:'center'}}>
                     <div>
-                        <h3>¿Necesitas <b>Vender</b> en Internet?</h3>
+                        <h3>¿Necesitas <span>Vender</span> en Internet?</h3>
                         <p style={{ textAlign: 'justify' }}>
                             ¡Hola! Somos Kword Agency y durante varios años hemos  trabajado como consultores de Marketing Digital.  Junto a nuestro equipo, hemos tenido la oportunidad de ayudar a diversas empresas a incrementar sus ventas en  Colombia, Estados Unidos, España, Irlanda y Australia. Para tener ventas consistentes en internet nuestra estrategia se enfoca en ejecutar una comunicación efectiva a través de anuncios en Facebook, Instagram y Google. Queremos ayudarte a crecer poniendo todo nuestro conocimiento a tu disposición.
                             </p>
                         <Link href="/contact">
-                            <button type="button" className="btn btn-primary">Contactanos</button>
+                            <button type="button" className="btn btn-primary" style={{background:"#4ABCC9"}}>Contactanos</button>
                         </Link>
                     </div>
                 </div>

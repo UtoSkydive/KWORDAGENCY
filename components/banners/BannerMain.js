@@ -9,23 +9,23 @@ const BannerMain = () => {
                 <div className="container">
                     <div className="row" >
                        
-                                <h3
+                                <p
                                     className="axil-display-1"
                                     data-aos="aos-fade-in-up"
                                     data-aos-duration="1000"
-                                    style={{ color: "white",textAlign:'center'}}
+                                    style={{ color: "white",textAlign:'center',fontSize:'1.5em',fontWeight:'bold'}}
                                 >
 
                                     ¡Hola somos Kword Agency!
-                                </h3>
+                                </p>
                                 <p
                                     className="subtitle-3"
                                     data-aos="aos-fade-in-up"
                                     data-aos-duration="1000"
                                     data-aos-delay="200"
-                                    style={{ color: "white" ,textAlign:'center'}}
+                                    style={{ color: "white" ,textAlign:'center',fontSize:'1.5em',fontWeight:'bold'}}
                                 >
-                                    <span style={{ background: "#4ABCC9" }}>Escalamos las ventas</span> de tu empresa con anucnios en Facebook, Instagram y Google
+                                    <span style={{ color: "#4ABCC9" }}>Escalamos las ventas</span> de tu empresa con anucnios en Facebook, Instagram y Google
                                 </p>
                     </div>
                 </div>

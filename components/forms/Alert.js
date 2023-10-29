@@ -1,5 +1,5 @@
 const Alert = ({
-  message = "Your message was sent successfully",
+  message = "Tu mensaje se envio satisfactoriamente!",
   type = "success",
 }) => {
   return (

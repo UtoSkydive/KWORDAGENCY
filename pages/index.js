@@ -40,7 +40,7 @@ const HomeOne = ({posts}) => {
 
                 {/*<SliderOne/>*/}
 
-                <BrandOne title={'Plataformas y Certificados'} subtitle={'Certificados'} brandData={false} data ={certificatData} sliceNumber={3}/>
+                <BrandOne title={'Plataformas'} subtitle={''} brandData={false} data ={certificatData} sliceNumber={3}/>
 
                 <AboutOne/>
 
@@ -52,7 +52,7 @@ const HomeOne = ({posts}) => {
 
                 <BrandOne data={BrandData}/>
 
-                <CounterOne/>
+                {/*<CounterOne/>*/}
 
                 {/*<BrandOne title={'Redes Sociales'} subtitle={'síguenos'} brandData={false} data ={socialData}/>*/}
 
