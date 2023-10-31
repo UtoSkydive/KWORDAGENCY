@@ -6,7 +6,7 @@ import Link from "next/link";
 const BrandOne = ({
   title = "Hemos construido soluciones para..",
   subtitle = "top clientes",
-  description = "Nulla facilisi. Nullam in magna id dolor blandit rutrum eget.",
+  description = "",
   bgColor = "bg-color-white",
   brandData = true,
   sliceNumber=7,

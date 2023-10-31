@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import SectionTitle from '../common/SectionTitle';
+import Image from 'next/image';
 
 const CallToActionOne = () => {
     // theme-gradient
@@ -22,7 +23,7 @@ const CallToActionOne = () => {
                                     href={`/contact`}
                                 >
                                     <a className="axil-button btn-large btn-transparent" >
-                                        <span className="button-text">Contactanos</span>
+                                        <span className="button-text">Contáctanos</span>
                                         <span className="button-icon" />
                                     </a>
                                 </Link>
@@ -31,9 +32,20 @@ const CallToActionOne = () => {
                                     <span className="text">
                                         O llamanos
                                     </span>
-                                    <span>
+                                    <span style={{
+                                        display: "flex",
+                                        justifyContent: 'center',
+                                        alignItems: 'center',
+                                        gap: '5px',
+                                    }}>
                                         <i className="fal fa-phone-alt" />
-                                        <a href="tel:(57) 3012046334">(+57) 3012046334</a>
+                                        <a href="tel:+57 3183806240">3183806240</a>
+                                        <Image
+                                            width={40}
+                                            height={40}
+                                            src="/images/flat/colombia.png"
+                                            alt="founder Image"
+                                        />
                                     </span>
                                 </div>
                             </div>

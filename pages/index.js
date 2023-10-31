@@ -42,7 +42,7 @@ const HomeOne = ({posts}) => {
 
                 <BrandOne title={'Plataformas'} subtitle={''} brandData={false} data ={certificatData} sliceNumber={3}/>
 
-                <AboutOne/>
+               {/*<AboutOne/>*/}
 
                 {/*<PortfolioOne/>*/}
 
