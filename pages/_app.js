@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
         })(window,document,'script','dataLayer','GTM-5FX3BLC4');
       `}
       </Script>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   )
 }
