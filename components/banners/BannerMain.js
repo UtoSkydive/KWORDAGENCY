@@ -13,7 +13,7 @@ const BannerMain = () => {
                                     className="axil-display-1"
                                     data-aos="aos-fade-in-up"
                                     data-aos-duration="1000"
-                                    style={{ color: "white",textAlign:'center',fontSize:'1.5em',fontWeight:'bold'}}
+                                    style={{ color: "white",textAlign:'center',fontSize:'1em'}}
                                 >
 
                                     ¡Hola somos Kword Agency!
@@ -25,7 +25,7 @@ const BannerMain = () => {
                                     data-aos-delay="200"
                                     style={{ color: "white" ,textAlign:'center',fontSize:'1.5em',fontWeight:'bold'}}
                                 >
-                                    <span style={{ color: "#4ABCC9" }}>Escalamos las ventas</span> de tu empresa con anucnios en Facebook, Instagram y Google
+                                    <span style={{ color: "#4ABCC9" }}>Escalamos las ventas</span> de tu empresa con anuncios en Facebook, Instagram y Google
                                 </p>
                     </div>
                 </div>
