@@ -6,6 +6,7 @@ import Input from "./Input";
 const ContactFormThree = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [isMessageSent, setIsMessageSent] = useState(false);
+  
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -13,10 +14,10 @@ const ContactFormThree = () => {
 
     emailjs
       .sendForm(
-        "default_service",
-        "template_lx68pja",
+        "service_n13x0xu",
+        "template_du2yo7s",
         form.current,
-        'G68Oxc-dViNzPY_6F'
+        'Ugh5dOBr-C24shgfl'
       )
       .then(
         (result) => {
