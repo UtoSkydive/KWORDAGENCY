@@ -49,6 +49,9 @@ const ThemeSwitcher = () => {
                     fontSize: '30px',
                     boxShadow: '2px 2px 3px #999',
                     zIndex: '1300',
+                    display:'flex',
+                    justifyContent:'center',
+                    alignItems:'center',
                 }}
                 onClick={() => toggleTheme()}
             >
