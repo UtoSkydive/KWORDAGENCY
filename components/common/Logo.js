@@ -1,10 +1,10 @@
 import Image from "next/image";
-import reactLogo from '/public/images/logo/full.png'
+import reactLogo from '/public/images/logo/logo.png'
 
 const Logo = () => {
     return (
         <div >
-            <Image src={reactLogo} width={150} height={60} alt="logo" className="logoKword" />
+            <Image src={reactLogo} width={160} height={55} alt="logo" className="logoKword" />
         </div>
     )
 }
